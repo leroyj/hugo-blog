@@ -7,13 +7,15 @@ description: "Les raisons de ce blog"
 ---
 _"Que diable allait-il faire dans cette galère - **Les fourberies de Scapin** (Acte II, scène 7)"_
 
-### Mais pourquoi ce blog ?  
-Ce blog à pour vocation de synthétiser les informations et les connaissances que j'ai glânées ça et là lors de mes pérégrinations sur internet.   
-C'est une idée que j'ai depuis un moment déjà et que je concrétise maintenant car je dispose d'un peu de temps en ce moment. 
+### Mais pourquoi ce blog ?
+
+Ce blog à pour vocation de synthétiser les informations et les connaissances que j'ai glânées ça et là lors de mes pérégrinations sur internet.  
+C'est une idée que j'ai depuis un moment déjà et que je concrétise maintenant car je dispose d'un peu de temps en ce moment.
 Je vais essayer d'être assidu et de tenir sur la distance.
-J'espère par ce biais suivre les adages qui veulent que 
-* _"On apprend en faisant"_ 
-* _"ce qui se conçoit bien s'énonce clairement, et les mots pour le dire arrivent aisément"_ 
+J'espère par ce biais suivre les adages qui veulent que
+
+* _"On apprend en faisant"_
+* _"ce qui se conçoit bien s'énonce clairement, et les mots pour le dire arrivent aisément"_
 * _"la meilleur façon d'apprendre, c'est d'enseigner"_.
 
 Bref, j'espère bien ainsi ancrer mes lectures en connaissances.  

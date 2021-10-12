@@ -52,7 +52,7 @@ Par chance, cette tâche peut être automatisée avec **GitHub Actions** comme n
 {{< figure src="../../../en/posts/deploy_workflow.drawio.png" title="Schéma de la chaîne de déploiement" alt="Schéma de la chaîne de déploiement" height=200 >}}
 
 J'ai choisi GitHub Page comme solution d'hébergement. C'est aussi simple qu'un simple copier du contenu généré par Hugo (habituellement le contenu du dossier `public`) et d'un coller dans votre repo `<nickname>.github.io`.
-Pour automatiser la tâche, vous pouvez utiliser un repo pour la source du contenu de votre blog et d'utiliser **Github Actions** pour automatiser le déploiement.
+Pour automatiser la tâche, vous pouvez utiliser un repo pour la source du contenu de votre blog et d'utiliser **Github Actions** pour automatiser le déploiement en utilisant ce [tutoriel d'intégration de Hugo dans GitHub](https://ruddra.com/hugo-deploy-static-page-using-github-actions/).
 Voici comment.
 
 ## Support de Google Analytics [^1]

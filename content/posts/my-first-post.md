@@ -7,13 +7,15 @@ description: "The reason why this blog"
 ---
 _"Que diable allait-il faire dans cette galère - **Les fourberies de Scapin** (Acte II, scène 7)"_
 
-### Why this blog?  
+### Why this blog?
+
 This blog is intended to summarize the information and knowledge I collected around my tech journey on the Internets.
 It's an idea around for long time now but I make it real now because I have some free time ahead.
 I will try hard to keep publish regularly over time.
-The intent of these posts is to follow the following addage: 
-* _"learn by doing"_ 
-* _"Whatever is well conceived is clearly said, And the words to say it flow with ease."_ 
+The intent of these posts is to follow the following addage:
+
+* _"learn by doing"_
+* _"Whatever is well conceived is clearly said, And the words to say it flow with ease."_
 * _"To teach is to learn twice over."_
 
 To summarize, I expect to make knowledge from what I read.  
