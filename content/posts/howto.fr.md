@@ -55,6 +55,25 @@ J'ai choisi GitHub Page comme solution d'hébergement. C'est aussi simple qu'un 
 Pour automatiser la tâche, vous pouvez utiliser un repo pour la source du contenu de votre blog et d'utiliser **Github Actions** pour automatiser le déploiement en utilisant ce [tutoriel d'intégration de Hugo dans GitHub](https://ruddra.com/hugo-deploy-static-page-using-github-actions/).
 Voici comment.
 
+```yaml {linenos=table,hl_lines=["4-8"],linenostart=24}
+      - name: Build
+        run: hugo --minify
+
+      - name: copy 404 from en language to root
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./public/en/404.html"
+          target: "./public/404.html"
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: leroyj/leroyj.github.io
+          publish_dir: ./public
+````
+
 ## Support de Google Analytics [^1]
 
 Pour suivre ma toute petite audience, j'utilise Google Analytics comme c'est l'outil que je connais le mieux et qu'on peut le mettre en oeuvre gratuitement.
