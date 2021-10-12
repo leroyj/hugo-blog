@@ -5,6 +5,7 @@ theme = "m10c"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 googleAnalytics = 'G-4K18JZ28X6'
+enableEmoji = true
 
 [privacy]
   [privacy.googleAnalytics]
@@ -52,6 +53,7 @@ googleAnalytics = 'G-4K18JZ28X6'
 [params]
   author = 'Julien Leroy'
   description = 'I am a tech dino and this is my story'
+  timeZone = 'Europe/Oslo'
   [params.navigation]
     help = 'Help'
   [params.style]
