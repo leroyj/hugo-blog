@@ -23,10 +23,10 @@ description = 'I am a tech dino and this is my story'
       name = 'Tags'
       url = '/en/tags/'
       weight = 3  
-    #[[languages.en.menu.main]]
-    #  name = 'About'
-    #  url = '/en/about'
-    #  weight = 4  
+    [[languages.en.menu.main]]
+      name = 'About'
+      url = '/en/about'
+      weight = 4  
   [languages.fr]
     title = "Mon Blog Tech (FR)"
     languageName = "French"
@@ -41,10 +41,10 @@ description = 'I am a tech dino and this is my story'
       name = 'Libellés'
       url = '/fr/tags/'
       weight = 3  
-    #[[languages.fr.menu.main]]
-    #  name = 'About'
-    #  url = '/fr/about'
-    #  weight = 4  
+    [[languages.fr.menu.main]]
+      name = 'About'
+      url = '/fr/about'
+      weight = 4  
 
 [params]
   [params.navigation]
