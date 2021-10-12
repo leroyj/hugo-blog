@@ -57,9 +57,9 @@ enableEmoji = true
   [params.navigation]
     help = 'Help'
   [params.style]
-    lightColor = "#99d5ff"
-    lightestColor = "#b4d6ff"
-    primaryColor ="#699dff"
+    lightColor = "#C2E5FF"
+    lightestColor = "#D6E9FF"
+    primaryColor ="#EEEEEE"
   [[params.social]]
     icon = "twitter"
     name = "My Twitter"

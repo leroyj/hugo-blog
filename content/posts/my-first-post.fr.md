@@ -2,7 +2,7 @@
 title: "À propos de ce blog"
 date: 2021-10-11T10:02:25+02:00
 draft: false
-tags: ["intro","FR"]
+tags: ["intro"]
 description: "Les raisons de ce blog"
 ---
 _"Que diable allait-il faire dans cette galère - **Les fourberies de Scapin** (Acte II, scène 7)"_
