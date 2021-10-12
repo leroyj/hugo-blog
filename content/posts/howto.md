@@ -12,6 +12,8 @@ _Aren't we here to talk about technology?_
 I'm looking for a solution with no maintenance that helps me to focus on writing content and not maintaining the full system. So don't expect a microservice architectured CMS on AWS Lambda though we might use it for some projects later :)  
 I also want a system with multilingual support to write in Globish :gb::us: and French :fr:.
 
+This fits completely the architecture type called [Jamstack](https://jamstack.org/) that sits on top of pre-rendering and decoupling.
+
 ## Hugo: a static website generator
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_of_Hugo_the_static_website_generator.svg" title="Logo of the Hugo project" alt="Logo of the Hugo project" height=100 >}}

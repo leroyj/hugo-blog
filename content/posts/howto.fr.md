@@ -13,6 +13,8 @@ _N'est on pas censé parler de technologie, après tout ?_
 Je cherche avant tout une solution de publication sans maintenance qui me permette de me concentrer sur l'écriture de contenu et non pas sur la maintenance de la solution. Alors vous n'entendrez pas parler ici de CMS à architecture microservice à base d'AWS Lambda même si on pourrait mettre ça en place dans de futurs projets :)  
 Je souhaite également disposer du support multilingue pour écrire en "Globish" :gb::us: et en Français :fr:.
 
+Cela rentre tout à fait dans le type d'architecture [Jamstack](https://jamstack.org/) alliant pré-génération et découplage.
+
 ## Hugo: Un générateur de site web statique
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_of_Hugo_the_static_website_generator.svg" title="Logo du projet Hugo" alt="Logo du projet Hugo" height=100 >}}
