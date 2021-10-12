@@ -45,7 +45,7 @@ Pour configurer le support multilingue, vous devez mettre en place la traduction
 Malheureusement, lorsque vous activez le multilingue, les pages 404 personnalisées par langue ne fonctionnent pas vraiment bien avec **GitHub Pages**.
 **GitHub Pages** ne supporte qu'une unique page 404 nommée `404.html` à la racine du repo.
 La seule manière alors est de copier la page 404 de la langue que vous aurez choisi à la racine du repo.
-Par chance, cette tâche peut être automatisée avec **GitHub Actions** comme nous le verrons au prochain paragraphe. 
+Par chance, cette tâche peut être automatisée avec **GitHub Actions** comme nous le verrons au prochain paragraphe.
 
 ## :building_construction: chaîne de déploiement
 
