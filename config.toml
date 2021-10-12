@@ -8,8 +8,8 @@ googleAnalytics = 'G-4K18JZ28X6'
 
 [privacy]
   [privacy.googleAnalytics]
-    anonymizeIP = yes
-    respectDoNotTrack = yes
+    anonymizeIP = true
+    respectDoNotTrack = true
 
 [languages]
   [languages.en]
