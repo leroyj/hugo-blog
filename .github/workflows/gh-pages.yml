@@ -24,6 +24,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: copy 404 from en language to root
+        uses: canastro/copy-file-action@master
+        with:
+          source: "en/404.html"
+          target: "404.html"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
