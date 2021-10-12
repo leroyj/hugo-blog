@@ -4,10 +4,12 @@ title = 'My tech blog'
 theme = "m10c"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-author = 'Julien Leroy'
-description = 'I am a tech dino and this is my story'
 googleAnalytics = 'G-4K18JZ28X6'
 
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = yes
+    respectDoNotTrack = yes
 
 [languages]
   [languages.en]
@@ -48,6 +50,8 @@ googleAnalytics = 'G-4K18JZ28X6'
       weight = 4  
 
 [params]
+  author = 'Julien Leroy'
+  description = 'I am a tech dino and this is my story'
   [params.navigation]
     help = 'Help'
   [params.style]
