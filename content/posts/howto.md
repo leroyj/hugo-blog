@@ -1,7 +1,7 @@
 ---
 title: "🏗️ How this blog was set up"
 date: 2021-10-12T15:28:09+02:00
-draft: true
+draft: false
 tags: ["Howto", "Hugo"]
 description: "Gives technical details on how this blog was set up"
 ---
