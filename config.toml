@@ -6,6 +6,7 @@ DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 author = 'Julien Leroy'
 description = 'I am a tech dino and this is my story'
+googleAnalytics = 'G-4K18JZ28X6'
 
 
 [languages]
