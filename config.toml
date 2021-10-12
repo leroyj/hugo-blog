@@ -1,4 +1,4 @@
-baseURL = 'http://leroyj.github.io/'
+baseURL = 'https://leroyj.github.io/'
 languageCode = 'en-us'
 title = 'My tech blog'
 theme = "m10c"
