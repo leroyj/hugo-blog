@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto on Mon Blog Tech (FR)</title>
+    <link>https://leroyj.github.io/fr/tags/howto/</link>
+    <description>Recent content in Howto on Mon Blog Tech (FR)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Oct 2021 15:28:09 +0200</lastBuildDate><atom:link href="https://leroyj.github.io/fr/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏗️ Comment ce blog a été bâti</title>
+      <link>https://leroyj.github.io/fr/posts/howto/</link>
+      <pubDate>Tue, 12 Oct 2021 15:28:09 +0200</pubDate>
+      
+      <guid>https://leroyj.github.io/fr/posts/howto/</guid>
+      <description>N&amp;rsquo;est on pas censé parler de technologie, après tout ?
+Mes attentes Je cherche avant tout une solution de publication sans maintenance qui me permette de me concentrer sur l&amp;rsquo;écriture de contenu et non pas sur la maintenance de la solution. Alors vous n&amp;rsquo;entendrez pas parler ici de CMS à architecture microservice à base d&amp;rsquo;AWS Lambda même si on pourrait mettre ça en place dans de futurs projets :)
+Je souhaite également disposer du support multilingue pour écrire en &amp;ldquo;Globish&amp;rdquo; 🇬🇧🇺🇸 et en Français 🇫🇷.</description>
+    </item>
+    
+  </channel>
+</rss>
