@@ -14,7 +14,9 @@ Non seulement la ligne de commande (CLI) représente toujours quelque chose aujo
 
 ### Automatisation
 
-Les activités de DevOps et de déploiement continue encouragent un déploiement très fréquent (plusieurs fois par jour) par les développeurs . Cela n'est possible qu'avec une automatisation complète de toute la chaîne de déploiement. Cette automatisation doublée d'un haut niveau de personnalisation est rendu possible par des scripts et un outillage performant. Et qui dit script, dit CLI.
+Les activités de DevOps et de déploiement continue encouragent un déploiement très fréquent (plusieurs fois par jour) par les développeurs . Cela n'est possible qu'avec une automatisation complète de toute la chaîne de déploiement. Cette automatisation doublée d'un haut niveau de personnalisation est rendu possible par des scripts et un outillage performant.
+
+Et qui dit script, dit CLI...
 
 #### Rust 🦀
 
@@ -22,12 +24,15 @@ Les activités de DevOps et de déploiement continue encouragent un déploiement
 
 Rust devient de plus en plus populaire pour les fonctions système en ce moment.
 Ce succès s'explique principalement en raison de la modernité de ce langage de programmation système offrant un haut niveau de sécurité **_et_** de performance.
-Avec ce succès grandissant, on voit émerger de plus en plus de réécriture d'outil classique en ligne de commande. Et cela va bien plus loin que qu'une simple réécriture.
+Avec ce succès grandissant, on voit émerger de plus en plus de réécriture d'outil classique en ligne de commande.
+
+Et cela va bien plus loin que qu'une simple réécriture.
 
 ### Des outils sous stéroïdes
 
 [`ripgrep`](https://github.com/BurntSushi/ripgrep) (aka `rg`) est un des exemples de réécriture les plus célèbres. Il s'agit d'une réimplémentation plus rapide que l'éclair du non moins célèbre `grep`, un outil de recherche de motif de phrases dans des fichiers.
 Ses performances incroyables en font un outil de choix pour être intégré dans des projets majeurs tels que Microsoft Visual Studio Code.
+
 Essayez ces autres outils:
 
 * `exa` en remplacement de `ls`
@@ -49,10 +54,13 @@ Malheureusement, encore une fois, cet annuaire en ligne ne permet pas de filtrer
 Alors, allons à la source des données sur la plateforme [data.gouv.fr](https://www.data.gouv.fr/en/).
 Vous pouvez trouver facilement la base des entreprise française appelée [Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/).
 
+Seulement voilà, un fois récupéré et décompressé, le fichier fait tout de même 5,4 Giga octets !
+
 ### Now, what to do of a 5,3GB csv file?
 
-Ripgrep aka `rg` est là pour vous aider à icible votre donnée.
+Ripgrep aka `rg` est là pour vous aider à cibler votre donnée.
 Une fois fait, c'est un jeu d'enfant d'extraire proprement les données utile en utilisant xsv.
+
 Voici comment :
 
 ```bash

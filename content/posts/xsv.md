@@ -15,7 +15,8 @@ Not only the Command Line Interface (CLI) is still a thing today on the ops side
 ### Automation
 
 Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation. Such an automation, assuming a hig level of customization, is allowed by scripting and sharp tools.
-And scripting means also CLI.  
+
+And scripting means also CLI...
 
 ### Rust 🦀
 
@@ -30,6 +31,7 @@ With this success comes a lot of rewriting of classical CLI tools. And it goes f
 
 One of the famous rewriting of tool is [ripgrep](https://github.com/BurntSushi/ripgrep) (aka `rg`). This is a light faster reimplementation of the famous `grep` tool to search strings in files.  
 Its blazing performance makes it a tool of choice to be integrated in major project such as Microsoft Visual Studio Code.
+
 Give a try to these other nice tools:
 
 * `exa` instead of `ls`
@@ -52,10 +54,12 @@ Unfortunatly, once again, no way to filter the office from this huge list.
 Let's go to the [data.gouv.fr](https://www.data.gouv.fr/en/) platform.
 You can easely find the French company database called [Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/).
 
+However, once recovered and decompressed, the file is still 5.4 GigaBytes!
+
 ### Now, what to do with a 5,3GB csv file?
 
 Ripgrep aka `rg` is here to help to spot your data.
-It's then easy to extract the useful data using xsv.
+It's then easy to extract the useful and clean data using xsv.
 
 Here's how:
 
