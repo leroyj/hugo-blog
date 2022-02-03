@@ -1,42 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My Tech Blog (EN)</title>
-    <link>https://leroyj.github.io/en/</link>
-    <description>Recent content on My Tech Blog (EN)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 12 Oct 2021 15:28:09 +0200</lastBuildDate><atom:link href="https://leroyj.github.io/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>🏗️ How this blog was set up</title>
-      <link>https://leroyj.github.io/en/posts/howto/</link>
-      <pubDate>Tue, 12 Oct 2021 15:28:09 +0200</pubDate>
-      
-      <guid>https://leroyj.github.io/en/posts/howto/</guid>
-      <description>Aren&amp;rsquo;t we here to talk about technology?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Tech Blog (EN)</title><link>https://leroyj.github.io/en/</link><description>Recent content on My Tech Blog (EN)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Feb 2022 22:59:43 +0100</lastBuildDate><atom:link href="https://leroyj.github.io/en/index.xml" rel="self" type="application/rss+xml"/><item><title>📊 Try to do this with Excel :)</title><link>https://leroyj.github.io/en/posts/xsv/</link><pubDate>Wed, 02 Feb 2022 22:59:43 +0100</pubDate><guid>https://leroyj.github.io/en/posts/xsv/</guid><description>How to deal with a 5GB file to extract simple information? CLI is here to save your day!
+Yes, the command line is still alive Not only the Command Line Interface (CLI) is still a thing today on the ops side but we can even see a kind of renaissance.
+Automation Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation.</description></item><item><title>🏗️ How this blog was set up</title><link>https://leroyj.github.io/en/posts/howto/</link><pubDate>Tue, 12 Oct 2021 15:28:09 +0200</pubDate><guid>https://leroyj.github.io/en/posts/howto/</guid><description>Aren&amp;rsquo;t we here to talk about technology?
 My needs I&amp;rsquo;m looking for a solution with no maintenance that helps me to focus on writing content and not maintaining the full system. So don&amp;rsquo;t expect a microservice architectured CMS on AWS Lambda though we might use it for some projects later :)
 I also want a system with multilingual support to write in Globish 🇬🇧🇺🇸 and French 🇫🇷.
-This fits completely the architecture pattern called Jamstack (Javascript, API, Markup stack) that sits on top of pre-rendering and decoupling.</description>
-    </item>
-    
-    <item>
-      <title>But why?</title>
-      <link>https://leroyj.github.io/en/posts/my-first-post/</link>
-      <pubDate>Mon, 11 Oct 2021 10:02:25 +0200</pubDate>
-      
-      <guid>https://leroyj.github.io/en/posts/my-first-post/</guid>
-      <description>&amp;ldquo;Que diable allait-il faire dans cette galère - Les fourberies de Scapin (Acte II, scène 7)&amp;quot;
-Why this blog? This blog is intended to summarize the information and knowledge I collected around my tech journey on the Internets. It&amp;rsquo;s an idea around for long time now but I make it real now because I have some free time ahead. I will try hard to keep publish regularly over time. The intent of these posts is to follow the following addage:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://leroyj.github.io/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leroyj.github.io/en/about/</guid>
-      <description>Gopher was my first Internet browser</description>
-    </item>
-    
-  </channel>
-</rss>
+This fits completely the architecture pattern called Jamstack (Javascript, API, Markup stack) that sits on top of pre-rendering and decoupling.</description></item><item><title>But why?</title><link>https://leroyj.github.io/en/posts/my-first-post/</link><pubDate>Mon, 11 Oct 2021 10:02:25 +0200</pubDate><guid>https://leroyj.github.io/en/posts/my-first-post/</guid><description>&amp;ldquo;Que diable allait-il faire dans cette galère - Les fourberies de Scapin (Acte II, scène 7)&amp;quot;
+Why this blog? This blog is intended to summarize the information and knowledge I collected around my tech journey on the Internets. It&amp;rsquo;s an idea around for long time now but I make it real now because I have some free time ahead. I will try hard to keep publish regularly over time. The intent of these posts is to follow the following addage:</description></item><item><title>About</title><link>https://leroyj.github.io/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leroyj.github.io/en/about/</guid><description>Gopher was my first Internet browser</description></item></channel></rss>
