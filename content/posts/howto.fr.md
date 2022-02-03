@@ -81,6 +81,16 @@ Voici comment.
 Pour suivre ma toute petite audience, j'utilise Google Analytics comme c'est l'outil que je connais le mieux et qu'on peut le mettre en oeuvre gratuitement.
 La configuration est directe. Il vous suffit d'ajouter `googleAnalytics = 'G-YOURGAID'` au fichier de configuration `config.toml`.
 
+## asciinema: Support de screencast de terminal
+
+_"Une image vaut mieux que mille mots"_ tout comme un screencast.
+
+Un screencast (ou vidéographie) est une capture vidéo de des actions à l'écran. Un screencast de terminal, c'est la même chose pour le contenu d'un terminal de ligne de commande en bénéficiant de la légèreté que confère le contenu texte uniquement. Le flux vidéo devient alors minimal (104ko pour 2 minutes 45 de vidéo et toujours en qualité HD)
+J'utilise la jolie solution [asciinema](https://asciinema.org/) que j'ai embarquée dans Hugo en m'appuyant sur les articles de blog suivants:
+
+* [Embedding asciinema cast in your Hugo site](https://jenciso.github.io/blog/embedding-asciinema-cast-in-your-hugo-site/)
+* [Custom Fonts in Asciinema](https://www.tonylykke.com/posts/2018/06/18/custom-fonts-in-asciinema/)
+
 ## Reste à faire
 
 Il reste beaucoup à faire pour rendre le blog un peu plus chatoyant.  

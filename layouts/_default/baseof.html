@@ -51,5 +51,8 @@
         {{ .Content }}
       {{ end }}
     </main>
+      {{ if .Params.asciinema }}
+        <script src="{{ .Site.BaseURL }}script/asciinema-player.js"></script>
+      {{ end }}
   </body>
 </html>

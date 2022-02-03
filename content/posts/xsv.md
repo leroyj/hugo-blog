@@ -3,10 +3,13 @@ title: "📊 Try to do this with Excel :)"
 date: 2022-02-02T22:59:43+01:00
 draft: false
 tags: ["EN","howto"]
+asciinema: true
 description: "Deal with 5GB csv file easily with ripgrep and xsv - Command line still make sense for data stuff"
 ---
 _How to deal with a 5GB file to extract simple information?
 CLI is here to save your day!_
+
+![Ouch!](/file-not-loaded-completely.png)
 
 ## Yes, the command line is still alive
 
@@ -76,7 +79,7 @@ xsv search -s siren '380129866' StockEtablissement_utf8.csv \
 | xsv table )
 ```
 
-[![asciicast](https://asciinema.org/a/cyNEJbjD7qWv2cW93ma3dp4FH.svg)](https://asciinema.org/a/cyNEJbjD7qWv2cW93ma3dp4FH)
+{{< asciinema key="466256" speed="2" preload="1" rows="29" idle-time-limit="0.5" font-size="small" poster="npt:2:47" >}}
 
 Command line still make sense for data stuff.
 Try this with your favorite Graphical Interface app :P

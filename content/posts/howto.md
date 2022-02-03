@@ -81,6 +81,16 @@ To fix the 404 page issues discussed above, I've just added a step in the `.gith
 To follow my tiny audience, I've setup Google Analytices as this is the tool I know and that I can set up for free.
 This is really straight forward to configure as you just have to add `googleAnalytics = 'G-YOURGAID'` to your `config.toml` file.
 
+## Asciinema: Terminal screencast support
+
+_"A picture is worth a thousand words"_ so a screen cast.
+
+A screen cast is simply a movie of your action on your computer. Terminal screen cast is exactly the same for text only terminal with the benefits of the lightweight of text only codec. The video stream is minimal (104kB for 2:45min with high quality obviously)
+I'm using [asciinema](https://asciinema.org/) nice solution I've embedded in Hugo using the following blog posts:
+
+* [Embedding asciinema cast in your Hugo site](https://jenciso.github.io/blog/embedding-asciinema-cast-in-your-hugo-site/)
+* [Custom Fonts in Asciinema](https://www.tonylykke.com/posts/2018/06/18/custom-fonts-in-asciinema/)
+
 ## TODO
 
 There are still a lot to do in order to make this blog fancier.  

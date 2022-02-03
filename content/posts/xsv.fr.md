@@ -3,10 +3,13 @@ title: "📊 Essayez de faire ça avec Excel :)"
 date: 2022-02-02T22:59:43+01:00
 draft: false
 tags: ["FR","howto"]
+asciinema: true
 description: "Gérer un fichier csv de 5Go avec ripgrep et xsv - La ligne de commande est toujours pertinent pour la data"
 ---
 _Comment gérer un fichier csv de 5Go pour extraire quelques informations simples ?
 La CLI va vous sauver le coup._
+
+![Ouch!](/file-not-loaded-completely.png)
 
 ## Oui, la ligne de commande est toujours en vie
 
@@ -76,7 +79,7 @@ xsv search -s siren '380129866' StockEtablissement_utf8.csv \
 | xsv table )
 ```
 
-[![asciicast](https://asciinema.org/a/cyNEJbjD7qWv2cW93ma3dp4FH.svg)](https://asciinema.org/a/cyNEJbjD7qWv2cW93ma3dp4FH)
+{{< asciinema key="466256" speed="2" preload="1" rows="29" idle-time-limit="0.5" font-size="small" poster="npt:2:47" >}}
 
 La ligne de commande reste toujours pertinente pour gérer les données.
 Essayez de faire ça avec votre outil favori en interface graphique :P
