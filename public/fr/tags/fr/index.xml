@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FR on Mon Blog Tech (FR)</title>
-    <link>https://leroyj.github.io/fr/tags/fr/</link>
+    <link>http://localhost:1313/fr/tags/fr/</link>
     <description>Recent content in FR on Mon Blog Tech (FR)</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 03 Feb 2022 18:43:15 +0000</lastBuildDate>
-    <atom:link href="https://leroyj.github.io/fr/tags/fr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/fr/tags/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📊 Essayez de faire ça avec Excel :)</title>
-      <link>https://leroyj.github.io/fr/posts/xsv/</link>
+      <link>http://localhost:1313/fr/posts/xsv/</link>
       <pubDate>Wed, 02 Feb 2022 21:59:43 +0000</pubDate>
-      <guid>https://leroyj.github.io/fr/posts/xsv/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Comment gérer un fichier csv de 5Go pour extraire quelques informations simples ?&#xA;La CLI va vous sauver le coup.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://leroyj.github.io/file-not-loaded-completely.png&#34; alt=&#34;Ouch!&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;oui-la-ligne-de-commande-est-toujours-en-vie&#34;&gt;Oui, la ligne de commande est toujours en vie&lt;/h2&gt;&#xA;&lt;p&gt;Non seulement la ligne de commande (CLI) représente toujours quelque chose aujourd&amp;rsquo;hui pour la partie Ops mais on peut même observer une certaine renaissance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;automatisation&#34;&gt;Automatisation&lt;/h3&gt;&#xA;&lt;p&gt;Les activités de DevOps et de déploiement continue encouragent un déploiement très fréquent (plusieurs fois par jour) par les développeurs . Cela n&amp;rsquo;est possible qu&amp;rsquo;avec une automatisation complète de toute la chaîne de déploiement. Cette automatisation doublée d&amp;rsquo;un haut niveau de personnalisation est rendu possible par des scripts et un outillage performant.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/fr/posts/xsv/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Comment gérer un fichier csv de 5Go pour extraire quelques informations simples ?&#xA;La CLI va vous sauver le coup.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/file-not-loaded-completely.png&#34; alt=&#34;Ouch!&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;oui-la-ligne-de-commande-est-toujours-en-vie&#34;&gt;Oui, la ligne de commande est toujours en vie&lt;/h2&gt;&#xA;&lt;p&gt;Non seulement la ligne de commande (CLI) représente toujours quelque chose aujourd&amp;rsquo;hui pour la partie Ops mais on peut même observer une certaine renaissance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;automatisation&#34;&gt;Automatisation&lt;/h3&gt;&#xA;&lt;p&gt;Les activités de DevOps et de déploiement continue encouragent un déploiement très fréquent (plusieurs fois par jour) par les développeurs . Cela n&amp;rsquo;est possible qu&amp;rsquo;avec une automatisation complète de toute la chaîne de déploiement. Cette automatisation doublée d&amp;rsquo;un haut niveau de personnalisation est rendu possible par des scripts et un outillage performant.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
