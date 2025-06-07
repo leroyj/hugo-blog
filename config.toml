@@ -32,8 +32,12 @@ enableEmoji = true
       url = '/en/about'
       weight = 4
     [[languages.en.menu.main]]
+      name = "SYN Map (qgis2web)"
+      url = "/qgis2web/index.html"
+      weight = 50
+    [[languages.en.menu.main]]
       name = "SYN Map"
-      url = "synmap/index.html"
+      url = "/synmap/index.html"
       weight = 50
   [languages.fr]
     title = "Mon Blog Tech (FR)"
@@ -54,8 +58,12 @@ enableEmoji = true
       url = '/fr/about'
       weight = 4
     [[languages.fr.menu.main]]
+      name = "SYN Map (qgis2web)"
+      url = "/qgis2web/index.html"
+      weight = 50
+    [[languages.fr.menu.main]]
       name = "SYN Map"
-      url = "synmap/index.html"
+      url = "/synmap/index.html"
       weight = 50
 
 [params]
