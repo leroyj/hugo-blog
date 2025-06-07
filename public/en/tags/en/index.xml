@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EN on My Tech Blog (EN)</title><link>https://leroyj.github.io/en/tags/en/</link><description>Recent content in EN on My Tech Blog (EN)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Feb 2022 22:59:43 +0100</lastBuildDate><atom:link href="https://leroyj.github.io/en/tags/en/index.xml" rel="self" type="application/rss+xml"/><item><title>📊 Try to do this with Excel :)</title><link>https://leroyj.github.io/en/posts/xsv/</link><pubDate>Wed, 02 Feb 2022 22:59:43 +0100</pubDate><guid>https://leroyj.github.io/en/posts/xsv/</guid><description>How to deal with a 5GB file to extract simple information? CLI is here to save your day!
-Yes, the command line is still alive Not only the Command Line Interface (CLI) is still a thing today on the ops side but we can even see a kind of renaissance.
-Automation Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EN on My Tech Blog (EN)</title>
+    <link>https://leroyj.github.io/en/tags/en/</link>
+    <description>Recent content in EN on My Tech Blog (EN)</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Feb 2022 18:42:49 +0000</lastBuildDate>
+    <atom:link href="https://leroyj.github.io/en/tags/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📊 Try to do this with Excel :)</title>
+      <link>https://leroyj.github.io/en/posts/xsv/</link>
+      <pubDate>Wed, 02 Feb 2022 21:59:43 +0000</pubDate>
+      <guid>https://leroyj.github.io/en/posts/xsv/</guid>
+      <description>&lt;p&gt;&lt;em&gt;How to deal with a 5GB file to extract simple information?&#xA;CLI is here to save your day!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://leroyj.github.io/file-not-loaded-completely.png&#34; alt=&#34;Ouch!&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;yes-the-command-line-is-still-alive&#34;&gt;Yes, the command line is still alive&lt;/h2&gt;&#xA;&lt;p&gt;Not only the Command Line Interface (CLI) is still a thing today on the ops side but we can even see a kind of renaissance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;automation&#34;&gt;Automation&lt;/h3&gt;&#xA;&lt;p&gt;Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation. Such an automation, assuming a hig level of customization, is allowed by scripting and sharp tools.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
