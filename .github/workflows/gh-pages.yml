@@ -9,6 +9,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
         with:
@@ -37,5 +39,3 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: leroyj/leroyj.github.io
           publish_dir: ./public
-          permissions:
-            contents: write
