@@ -1,10 +1,14 @@
 ---
-title: "📊 Try to do this with Excel :)"
-date: 2022-02-02T22:59:43+01:00
+title: "\U0001F4CA Try to do this with Excel :)"
+date: 2022-02-02T21:59:43.000Z
 draft: false
-tags: ["EN","howto"]
+tags:
+    - EN
+    - howto
 asciinema: true
-description: "Deal with 5GB csv file easily with ripgrep and xsv - Command line still make sense for data stuff"
+description: Deal with 5GB csv file easily with ripgrep and xsv - Command line still make sense for data stuff
+lastmod: '2022-02-03T18:42:49.743Z'
+preview: /file-not-loaded-completely.png
 ---
 _How to deal with a 5GB file to extract simple information?
 CLI is here to save your day!_

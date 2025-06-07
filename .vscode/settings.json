@@ -2,5 +2,16 @@
     "conventionalCommits.scopes": [
         "Blog post",
         "platform"
+    ],
+    "frontMatter.content.autoUpdateDate": true,
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.framework.startCommand": "hugo server -D",
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "content",
+            "path": "[[workspace]]/content"
+        }
     ]
 }

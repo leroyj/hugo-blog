@@ -1,10 +1,14 @@
 ---
-title: "📊 Essayez de faire ça avec Excel :)"
-date: 2022-02-02T22:59:43+01:00
+title: "\U0001F4CA Essayez de faire ça avec Excel :)"
+date: 2022-02-02T21:59:43.000Z
 draft: false
-tags: ["FR","howto"]
+tags:
+    - FR
+    - howto
 asciinema: true
-description: "Gérer un fichier csv de 5Go avec ripgrep et xsv - La ligne de commande est toujours pertinent pour la data"
+description: Gérer un fichier csv de 5Go avec ripgrep et xsv - La ligne de commande est toujours pertinent pour la data
+preview: /file-not-loaded-completely.png
+lastmod: '2022-02-03T18:43:15.508Z'
 ---
 _Comment gérer un fichier csv de 5Go pour extraire quelques informations simples ?
 La CLI va vous sauver le coup._
