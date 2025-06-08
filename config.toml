@@ -73,7 +73,7 @@ enableEmoji = true
 [params]
   author = 'Julien Leroy'
   description = 'I am a tech dino and this is my story'
-  timeZone = 'Europe/Oslo'
+  timeZone = 'Europe/Paris'
   [params.navigation]
     help = 'Help'
   [params.style]
