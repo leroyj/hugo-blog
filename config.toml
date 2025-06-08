@@ -12,6 +12,10 @@ enableEmoji = true
     anonymizeIP = true
     respectDoNotTrack = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [languages]
   [languages.en]
     title = "My Tech Blog (EN)"
