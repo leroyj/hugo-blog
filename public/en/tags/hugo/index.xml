@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on My Tech Blog (EN)</title>
-    <link>http://localhost:1313/en/tags/hugo/</link>
+    <link>https://leroyj.github.io/en/tags/hugo/</link>
     <description>Recent content in Hugo on My Tech Blog (EN)</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Oct 2021 15:28:09 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leroyj.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🏗️ How this blog was set up</title>
-      <link>http://localhost:1313/en/posts/howto/</link>
+      <link>https://leroyj.github.io/en/posts/howto/</link>
       <pubDate>Tue, 12 Oct 2021 15:28:09 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/howto/</guid>
+      <guid>https://leroyj.github.io/en/posts/howto/</guid>
       <description>&lt;p&gt;&lt;em&gt;Aren&amp;rsquo;t we here to talk about technology?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-needs&#34;&gt;My needs&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m looking for a solution with no maintenance that helps me to focus on writing content and not maintaining the full system. So don&amp;rsquo;t expect a microservice architectured CMS on AWS Lambda though we might use it for some projects later :)&lt;br&gt;&#xA;I also want a system with multilingual support to write in Globish &amp;#x1f1ec;&amp;#x1f1e7;&amp;#x1f1fa;&amp;#x1f1f8; and French &amp;#x1f1eb;&amp;#x1f1f7;.&lt;/p&gt;&#xA;&lt;p&gt;This fits completely the architecture pattern called &lt;a href=&#34;https://jamstack.org/&#34;&gt;Jamstack (Javascript, API, Markup stack)&lt;/a&gt; that sits on top of pre-rendering and decoupling.&lt;/p&gt;</description>
     </item>
   </channel>

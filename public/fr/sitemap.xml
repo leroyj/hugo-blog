@@ -2,148 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/posts/xsv/</loc>
+    <loc>https://leroyj.github.io/fr/posts/xsv/</loc>
     <lastmod>2022-02-03T18:43:15+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/xsv/"
+                href="https://leroyj.github.io/en/posts/xsv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/xsv/"
+                href="https://leroyj.github.io/fr/posts/xsv/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/fr/</loc>
+    <loc>https://leroyj.github.io/fr/tags/fr/</loc>
     <lastmod>2022-02-03T18:43:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fr/tags/howto/</loc>
-    <lastmod>2022-02-03T18:43:15+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/howto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/howto/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/</loc>
+    <loc>https://leroyj.github.io/fr/tags/howto/</loc>
     <lastmod>2022-02-03T18:43:15+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://leroyj.github.io/en/tags/howto/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://leroyj.github.io/fr/tags/howto/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/posts/</loc>
+    <loc>https://leroyj.github.io/fr/</loc>
     <lastmod>2022-02-03T18:43:15+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="https://leroyj.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/"
+                href="https://leroyj.github.io/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
+    <loc>https://leroyj.github.io/fr/posts/</loc>
     <lastmod>2022-02-03T18:43:15+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://leroyj.github.io/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://leroyj.github.io/fr/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/hugo/</loc>
+    <loc>https://leroyj.github.io/fr/tags/</loc>
+    <lastmod>2022-02-03T18:43:15+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://leroyj.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://leroyj.github.io/fr/tags/"
+                />
+  </url><url>
+    <loc>https://leroyj.github.io/fr/tags/hugo/</loc>
     <lastmod>2021-10-12T15:28:09+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/hugo/"
+                href="https://leroyj.github.io/en/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/hugo/"
+                href="https://leroyj.github.io/fr/tags/hugo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/posts/howto/</loc>
+    <loc>https://leroyj.github.io/fr/posts/howto/</loc>
     <lastmod>2021-10-12T15:28:09+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/howto/"
+                href="https://leroyj.github.io/en/posts/howto/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/howto/"
+                href="https://leroyj.github.io/fr/posts/howto/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/posts/my-first-post/</loc>
+    <loc>https://leroyj.github.io/fr/posts/my-first-post/</loc>
     <lastmod>2021-10-11T10:02:25+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/my-first-post/"
+                href="https://leroyj.github.io/en/posts/my-first-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/my-first-post/"
+                href="https://leroyj.github.io/fr/posts/my-first-post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/intro/</loc>
+    <loc>https://leroyj.github.io/fr/tags/intro/</loc>
     <lastmod>2021-10-11T10:02:25+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/intro/"
+                href="https://leroyj.github.io/en/tags/intro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/intro/"
+                href="https://leroyj.github.io/fr/tags/intro/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/about/</loc>
+    <loc>https://leroyj.github.io/fr/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://leroyj.github.io/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="https://leroyj.github.io/fr/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/categories/</loc>
+    <loc>https://leroyj.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://leroyj.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://leroyj.github.io/fr/categories/"
                 />
   </url>
 </urlset>

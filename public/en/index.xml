@@ -2,52 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Tech Blog (EN)</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://leroyj.github.io/en/</link>
     <description>Recent content on My Tech Blog (EN)</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 03 Feb 2022 18:42:49 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leroyj.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📊 Try to do this with Excel :)</title>
-      <link>http://localhost:1313/en/posts/xsv/</link>
+      <link>https://leroyj.github.io/en/posts/xsv/</link>
       <pubDate>Wed, 02 Feb 2022 21:59:43 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/xsv/</guid>
-      <description>&lt;p&gt;&lt;em&gt;How to deal with a 5GB file to extract simple information?&#xA;CLI is here to save your day!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/file-not-loaded-completely.png&#34; alt=&#34;Ouch!&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;yes-the-command-line-is-still-alive&#34;&gt;Yes, the command line is still alive&lt;/h2&gt;&#xA;&lt;p&gt;Not only the Command Line Interface (CLI) is still a thing today on the ops side but we can even see a kind of renaissance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;automation&#34;&gt;Automation&lt;/h3&gt;&#xA;&lt;p&gt;Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation. Such an automation, assuming a hig level of customization, is allowed by scripting and sharp tools.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dev environment best practices</title>
-      <link>http://localhost:1313/en/posts/dev-env/</link>
-      <pubDate>Fri, 03 Dec 2021 10:45:35 +0100</pubDate>
-      <guid>http://localhost:1313/en/posts/dev-env/</guid>
-      <description>&lt;h1 id=&#34;dev-computer&#34;&gt;Dev computer&lt;/h1&gt;&#xA;&lt;h2 id=&#34;mac-setup&#34;&gt;Mac Setup&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew&lt;/li&gt;&#xA;&lt;li&gt;zsh+antigen+oh-my-zsh&lt;/li&gt;&#xA;&lt;li&gt;Visual Studio Code (or vim :P)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;online-tools&#34;&gt;Online tools&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Coud9 : AWS online editor /!\ save&lt;/li&gt;&#xA;&lt;li&gt;vscode online with github&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;source-code-management-scm&#34;&gt;source code management (SCM)&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;git (github or gitlab)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;tooling&#34;&gt;tooling&lt;/h1&gt;&#xA;&lt;h2 id=&#34;tdd-test-driven-development&#34;&gt;TDD (Test driven development)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jest&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;change-management-and-documentation&#34;&gt;change management and documentation&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;semver (semantic versionning)&lt;/li&gt;&#xA;&lt;li&gt;commitzen cz (conventional commits)&lt;/li&gt;&#xA;&lt;li&gt;commitlint (commit linting)&lt;/li&gt;&#xA;&lt;li&gt;husky (git hook)&lt;/li&gt;&#xA;&lt;li&gt;greenkeeper snyk (security)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;toolchain&#34;&gt;toolchain&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;webpack, parcel, esbuild (packing)&lt;/li&gt;&#xA;&lt;li&gt;babel was browserify (transpiling for backward compatibility)&lt;/li&gt;&#xA;&lt;li&gt;tsc (typescript transpiling)&lt;/li&gt;&#xA;&lt;li&gt;jsx&lt;/li&gt;&#xA;&lt;li&gt;sass scss less (css transpiling)&lt;/li&gt;&#xA;&lt;li&gt;squoosh (image)&lt;/li&gt;&#xA;&lt;li&gt;react, vue, svelte (front framework)&lt;/li&gt;&#xA;&lt;li&gt;tree-shaking concept&lt;/li&gt;&#xA;&lt;li&gt;atjson, commonmark, codexeditor, poetica (Document format)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cicd&#34;&gt;CI/CD&lt;/h2&gt;&#xA;&lt;h1 id=&#34;framework&#34;&gt;Framework&lt;/h1&gt;&#xA;&lt;h2 id=&#34;opiniated-vs-generalist&#34;&gt;opiniated vs generalist&lt;/h2&gt;&#xA;&lt;h2 id=&#34;front-hydratation-static-page-for-fast-first-contentful-paint-post-dynamized-by-&#34;&gt;[Front] Hydratation (static page for fast &amp;ldquo;First Contentful Paint&amp;rdquo; post dynamized by )&lt;/h2&gt;&#xA;&lt;h2 id=&#34;data-gravity&#34;&gt;Data gravity&lt;/h2&gt;&#xA;&lt;p&gt;poids de la donnée (perf + cost)&#xA;ecosystème/service associés&#xA;=&amp;gt; Salesforce&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>λ Functional Programming</title>
-      <link>http://localhost:1313/en/posts/functional-programming/</link>
-      <pubDate>Mon, 15 Nov 2021 15:30:21 +0100</pubDate>
-      <guid>http://localhost:1313/en/posts/functional-programming/</guid>
-      <description>&lt;h1 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h1&gt;&#xA;&lt;p&gt;I hadn&amp;rsquo;t seen that much functionnal programming since my engineering school at ESIEA.&#xA;At that time, I&amp;rsquo;ve learned to write an lisp interpreter in lisp.&#xA;I seen it as an old fashion programming paradygm.&#xA;OO was the hype at that time and:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;I had no idea of what was behind this.&lt;/li&gt;&#xA;&lt;li&gt;I didn&amp;rsquo;t realise that I was hyped&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I rediscovered it recently with the js, clojure and haskel.&lt;/p&gt;</description>
+      <guid>https://leroyj.github.io/en/posts/xsv/</guid>
+      <description>&lt;p&gt;&lt;em&gt;How to deal with a 5GB file to extract simple information?&#xA;CLI is here to save your day!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://leroyj.github.io/file-not-loaded-completely.png&#34; alt=&#34;Ouch!&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;yes-the-command-line-is-still-alive&#34;&gt;Yes, the command line is still alive&lt;/h2&gt;&#xA;&lt;p&gt;Not only the Command Line Interface (CLI) is still a thing today on the ops side but we can even see a kind of renaissance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;automation&#34;&gt;Automation&lt;/h3&gt;&#xA;&lt;p&gt;Devops and Continuous Delivery push a frequent deployment by the developers (more than daily). This is only achievable if you have a full delivery chain automation. Such an automation, assuming a hig level of customization, is allowed by scripting and sharp tools.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🏗️ How this blog was set up</title>
-      <link>http://localhost:1313/en/posts/howto/</link>
+      <link>https://leroyj.github.io/en/posts/howto/</link>
       <pubDate>Tue, 12 Oct 2021 15:28:09 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/howto/</guid>
+      <guid>https://leroyj.github.io/en/posts/howto/</guid>
       <description>&lt;p&gt;&lt;em&gt;Aren&amp;rsquo;t we here to talk about technology?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-needs&#34;&gt;My needs&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m looking for a solution with no maintenance that helps me to focus on writing content and not maintaining the full system. So don&amp;rsquo;t expect a microservice architectured CMS on AWS Lambda though we might use it for some projects later :)&lt;br&gt;&#xA;I also want a system with multilingual support to write in Globish &amp;#x1f1ec;&amp;#x1f1e7;&amp;#x1f1fa;&amp;#x1f1f8; and French &amp;#x1f1eb;&amp;#x1f1f7;.&lt;/p&gt;&#xA;&lt;p&gt;This fits completely the architecture pattern called &lt;a href=&#34;https://jamstack.org/&#34;&gt;Jamstack (Javascript, API, Markup stack)&lt;/a&gt; that sits on top of pre-rendering and decoupling.&lt;/p&gt;</description>
     </item>
     <item>
       <title>But why?</title>
-      <link>http://localhost:1313/en/posts/my-first-post/</link>
+      <link>https://leroyj.github.io/en/posts/my-first-post/</link>
       <pubDate>Mon, 11 Oct 2021 10:02:25 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/my-first-post/</guid>
+      <guid>https://leroyj.github.io/en/posts/my-first-post/</guid>
       <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Que diable allait-il faire dans cette galère - &lt;strong&gt;Les fourberies de Scapin&lt;/strong&gt; (Acte II, scène 7)&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-this-blog&#34;&gt;Why this blog?&lt;/h3&gt;&#xA;&lt;p&gt;This blog is intended to summarize the information and knowledge I collected around my tech journey on the Internets.&#xA;It&amp;rsquo;s an idea around for long time now but I make it real now because I have some free time ahead.&#xA;I will try hard to keep publish regularly over time.&#xA;The intent of these posts is to follow the following addage:&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/en/about/</link>
+      <link>https://leroyj.github.io/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/about/</guid>
+      <guid>https://leroyj.github.io/en/about/</guid>
       <description>&lt;p&gt;Gopher was my first Internet browser&lt;/p&gt;</description>
     </item>
   </channel>
