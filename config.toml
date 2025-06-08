@@ -41,7 +41,7 @@ enableEmoji = true
       weight = 50
     [[languages.en.menu.main]]
       name = "SYN Map"
-      url = "/synmap/index.html"
+      url = "/synmap-static/index.html"
       weight = 50
   [languages.fr]
     title = "Mon Blog Tech (FR)"
@@ -67,7 +67,7 @@ enableEmoji = true
       weight = 50
     [[languages.fr.menu.main]]
       name = "SYN Map"
-      url = "/synmap/index.html"
+      url = "/synmap-static/index.html"
       weight = 50
 
 [params]
