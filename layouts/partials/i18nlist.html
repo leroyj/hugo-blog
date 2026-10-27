@@ -1,10 +1,10 @@
 {{ if .IsTranslated }}
-<h4>{{ i18n "translations" }}</h4>
-<ul>
-    {{ range .Translations }}
-    <li>
-        <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
-    </li>
-    {{ end }}
-</ul>
+<nav class="post-translations" aria-label="Translations">
+  <span class="post-translations-label">{{ partial "icon.html" (dict "ctx" $ "name" "globe") }} Also in:</span>
+  {{ range .Translations }}
+  <a class="translation-pill" href="{{ .Permalink }}">
+    {{ .Language.Label | default .Language.Lang }} · {{ .Title }}
+  </a>
+  {{ end }}
+</nav>
 {{ end }}

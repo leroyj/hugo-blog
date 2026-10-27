@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang="{{ .Language.Locale | default "en" }}">
   <head>
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} // {{ .Site.Title }}{{ end }}</title>
     <link rel="shortcut icon" href="{{ .Site.Params.favicon | default "/favicon.ico" }}" />
@@ -8,8 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="{{ .Site.Params.author | default "John Doe" }}" />
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-    {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
+    <meta name="theme-color" content="{{ .Site.Params.style.darkestColor | default "#242930" }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | relLangURL }}" />
+    {{ $sassOpts := dict "transpiler" "dartsass" "outputStyle" "compressed" "silenceDeprecations" (slice "import") -}}
+    {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | css.Sass $sassOpts | resources.Minify | resources.Fingerprint -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    {{ partial "head.html" . }}
 
     {{ template "_internal/google_analytics.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
@@ -18,41 +22,44 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
-      <h2>{{ .Site.Title }}</h2>
+      <a class="app-header-brand" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
+        <img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" />
+      </a>
+      <h2 class="app-header-title">{{ .Site.Title }}</h2>
+      <p class="app-header-description">{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
       {{- with .Site.Menus.main }}
-      <nav class="app-header-menu">
+      <nav class="app-header-menu" aria-label="Main menu">
         {{- range $key, $item := . }}
-          {{- if ne $key 0 }}
-            {{ $.Site.Params.menu_item_separator | default " - " | safeHTML }}
-          {{ end }}
           <a class="app-header-menu-item" href="{{ $item.URL }}">{{ $item.Name }}</a>
         {{- end }}
       </nav>
       {{- end }}
-      <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
+      <nav class="app-header-i18n" aria-label="Language">
+        {{- range $.Site.Home.AllTranslations }}
+        <a class="i18n-item{{ if eq .Language.Lang $.Language.Lang }} active{{ end }}" href="{{ .Permalink }}">{{ .Language.Label | default .Language.Lang }}</a>
+        {{- end }}
+      </nav>
       {{- with .Site.Params.social }}
       <div class="app-header-social">
         {{ range . }}
-          <a href="{{ .url }}" target="_blank" rel="noreferrer noopener">
+          <a href="{{ .url }}" target="_blank" rel="noreferrer noopener me" title="{{ .name }}" aria-label="{{ .name }}">
             {{ partial "icon.html" (dict "ctx" $ "name" .icon "title" .name) }}
           </a>
         {{ end }}
       </div>
-      <ul>
-        {{ range $.Site.Home.AllTranslations }}
-        <li class="posts-list-item"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-        {{ end }}
-      </ul>
       {{- end }}
     </header>
     <main class="app-container">
       {{ block "main" . }}
         {{ .Content }}
       {{ end }}
+      <footer class="app-footer">
+        <span>© {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}</span>
+        <a href="{{ "index.xml" | relLangURL }}">{{ partial "icon.html" (dict "ctx" $ "name" "rss") }} RSS</a>
+      </footer>
     </main>
       {{ if .Params.asciinema }}
-        <script src="{{ .Site.BaseURL }}script/asciinema-player.js"></script>
+        <script src="{{ "script/asciinema-player.js" | relURL }}"></script>
       {{ end }}
   </body>
 </html>

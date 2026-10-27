@@ -6,13 +6,10 @@
         <li class="posts-list-item">
           <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
           <span class="posts-list-item-description">
-            {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
-            {{ .PublishDate.Format "Jan 2, 2006" }}
-            -
-            {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
-            {{ .ReadingTime }} min read
+            <span>{{ partial "icon.html" (dict "ctx" $ "name" "calendar") }} {{ .PublishDate.Format "Jan 2, 2006" }}</span>
+            <span>{{ partial "icon.html" (dict "ctx" $ "name" "clock") }} {{ .ReadingTime }} min read</span>
           </span>
-          <p class="posts-list-item-description italic-class">{{ .Description }}</p>
+          {{ with .Description }}<p class="posts-list-item-summary italic-class">{{ . }}</p>{{ end }}
         </li>
       {{ end }}
     </ul>

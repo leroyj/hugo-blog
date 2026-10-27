@@ -1,5 +1,5 @@
 baseURL = 'https://blog.djoo.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'My tech blog'
 theme = "m10c"
 DefaultContentLanguage = "en"
@@ -19,7 +19,7 @@ enableEmoji = true
 [languages]
   [languages.en]
     title = "My Tech Blog (EN)"
-    languageName = "English"
+    label = "English"
     weight = 1
     description = 'I am a tech dino and this is my story'
     help = 'Help'
@@ -45,7 +45,7 @@ enableEmoji = true
       weight = 50
   [languages.fr]
     title = "Mon Blog Tech (FR)"
-    languageName = "French"
+    label = "French"
     weight = 1
     description = 'Je suis un dino tech et ceci est mon histoire'
     help = 'Aide'
@@ -77,13 +77,15 @@ enableEmoji = true
   [params.navigation]
     help = 'Help'
   [params.style]
+    darkestColor = "#1C2127"
+    darkColor = "#262B33"
     lightColor = "#C2E5FF"
     lightestColor = "#D6E9FF"
     primaryColor ="#EEEEEE"
   [[params.social]]
-    icon = "twitter"
-    name = "My Twitter"
-    url = "https://twitter.com/leroyj"
+    icon = "bluesky"
+    name = "My Bluesky (mu.social)"
+    url = "https://mu.social/profile/djoo.org"
   [[params.social]]
     icon = "github"
     name = "My Github"

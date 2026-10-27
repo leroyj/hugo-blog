@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <ul class="tags-list">
+      {{ range .Data.Terms.ByCount }}
+        <li class="tags-list-item">
+          <a class="tag" href="{{ .Page.Permalink }}">
+            {{ partial "icon.html" (dict "ctx" $ "name" "tag") }} {{ .Page.Title }}
+            <span class="tag-count">{{ .Count }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </article>
+{{ end }}
