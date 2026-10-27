@@ -70,6 +70,8 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+      - name: Copy 404 page to site root
+        run: cp ./public/en/404.html ./public/404.html
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v6
