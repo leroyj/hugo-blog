@@ -1,0 +1,3 @@
+# Hugo build output (the GitHub Pages workflow builds from source)
+/public/
+.hugo_build.lock
