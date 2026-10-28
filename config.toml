@@ -39,6 +39,14 @@ enableEmoji = true
       name = 'About'
       url = '/en/about'
       weight = 4
+    [[languages.en.menu.main]]
+      name = "SYN Map (qgis2web) 🔒"
+      url = "https://syn-http.tailde7c1c.ts.net/qgis2web/"
+      weight = 50
+    [[languages.en.menu.main]]
+      name = "SYN Map 🔒"
+      url = "https://syn-http.tailde7c1c.ts.net/synmap-static/"
+      weight = 50
   [languages.fr]
     title = "Mon Blog Tech (FR)"
     label = "French"
@@ -61,6 +69,14 @@ enableEmoji = true
       name = 'About'
       url = '/fr/about'
       weight = 4
+    [[languages.fr.menu.main]]
+      name = "SYN Map (qgis2web) 🔒"
+      url = "https://syn-http.tailde7c1c.ts.net/qgis2web/"
+      weight = 50
+    [[languages.fr.menu.main]]
+      name = "SYN Map 🔒"
+      url = "https://syn-http.tailde7c1c.ts.net/synmap-static/"
+      weight = 50
 
 [params]
   author = 'Julien Leroy'
